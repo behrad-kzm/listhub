@@ -300,8 +300,6 @@
 			isa = PBXGroup;
 			children = (
 				25C0835024458DC0001578D1 /* Montserrat */,
-				25C0834C24458DB8001578D1 /* Montserrat-Bold.ttf */,
-				25C0834D24458DB8001578D1 /* Montserrat-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -381,6 +379,8 @@
 		25C0835024458DC0001578D1 /* Montserrat */ = {
 			isa = PBXGroup;
 			children = (
+				25C0834D24458DB8001578D1 /* Montserrat-Regular.ttf */,
+				25C0834C24458DB8001578D1 /* Montserrat-Bold.ttf */,
 			);
 			path = Montserrat;
 			sourceTree = "<group>";
