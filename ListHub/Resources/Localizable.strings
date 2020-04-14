@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  ListHub
+
+  Created by Salar Soleimani on 2020-04-14.
+  Copyright © 2020 BEKSAS. All rights reserved.
+*/
+
+/// Rate
+
+"Rate_alertCancelTitle" = "Not now, thanks";
+"Rate_alertMessage" = "If you enjoy using Virus Care, would you mind taking a moment to rate it? it just takes less than a minute. it supports to encourage us to make the app more sufficient.\nThanks for your support 🙌🏾";
+"Rate_alertRateLaterTitle" = "Remind me later";
+"Rate_alertRateTitle" = "Rate Virus Care";
+"Rate_alertTitle" = "Please rate us 🙂";
