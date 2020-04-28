@@ -12,7 +12,7 @@ final class ListsNavigator: Navigator {
   func setup() {
     let vc = ListsController.initFromNib()
     vc.viewModel = ListsViewModel(navigator: self)
-    navigationController.viewControllers = [vc]
+    navigationController.setViewControllers([vc], animated: true)
     //AnalyticLogProvider.logNavigator(name: NSStringFromClass(type(of: self)), functionName: "setup")
   }
 }

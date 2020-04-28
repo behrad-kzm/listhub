@@ -16,19 +16,18 @@ let testAdRewardedVideoUnitID = "ca-app-pub-3940256099942544/1712485313"
 let testAdNativeAdvancedUnitID = "ca-app-pub-3940256099942544/3986624511"
 let testAdNativeAdvancedVideoUnitID = "ca-app-pub-3940256099942544/2521693316"
 // my ads unit ids
-let adBannerStatisticBottom = "ca-app-pub-5525602383489545/8205609453"
-let adBannerConfigurationBottom = "ca-app-pub-5525602383489545/7273463869"
-let adRewardedConfiguration = "ca-app-pub-5525602383489545/1429082572"
-let adRewardedQuestion = "ca-app-pub-5525602383489545/4870468280"
+let adBannerHomeBottom = "ca-app-pub-1135958579537389/1781667294"
+let adRewardedHome = "ca-app-pub-1135958579537389/6650850596"
+
 
 enum Constants {
   enum Keys: String {
     case fontScale = "com.storageKey.fontScale"
     case fontFamily = "com.storageKey.fontFamily"
-    
-    case appOpenedCount = "com.storageKey.appOpenedCount"
     case isAdsRemoved = "com.storageKey.isAdsRemoved"
     case isOnboardingWatched = "com.storageKey.isOnboardingWatched"
+    
+    case appOpenedCount = "com.storageKey.appOpenedCount"
   }
   enum Links: String {
     case youtube = "https://www.youtube.com/channel/UCVv19836gsoYpdpU_FTE21Q"

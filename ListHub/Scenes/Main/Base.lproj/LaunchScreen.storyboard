@@ -20,10 +20,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ohc-Hg-s5G" secondAttribute="height" multiplier="1:1" id="sin-az-xDk"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="LogoIMG"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
-                                </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

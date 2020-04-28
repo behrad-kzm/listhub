@@ -13,3 +13,17 @@
 "Rate_alertRateLaterTitle" = "Remind me later";
 "Rate_alertRateTitle" = "Rate Virus Care";
 "Rate_alertTitle" = "Please rate us 🙂";
+
+// ONBOARDING
+
+"onboarding_title1" = "Dynamic Lists";
+"onboarding_title2" = "Different Elements!";
+"onboarding_title3" = "Organize Your Stuff";
+"onboarding_title4" = "My First List";
+
+"onboarding_description1" = "Make your list dynamicly, no matter it is a todo or gerocery or something else.\nYou decide what you want or choose from our templates.";
+"onboarding_description2" = "Add unlimited different elements to your lists.\nSuch as: Date, Title, Description, Stepper, Image, ...";
+"onboarding_description3" = "You are a collectioner! forget what did you borrow your friend?\nSimply add a description element to your collection list and write who did you borrow to.";
+"onboarding_description4" = "Start creating a list by + button.";
+
+

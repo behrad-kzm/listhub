@@ -37,14 +37,9 @@
 		25C08331244588C4001578D1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0832E244588C3001578D1 /* SplashViewController.swift */; };
 		25C08332244588C4001578D1 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C0832F244588C3001578D1 /* SplashViewController.xib */; };
 		25C08333244588C4001578D1 /* SplashNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C08330244588C4001578D1 /* SplashNavigator.swift */; };
-		25C0833524458A53001578D1 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0833424458A53001578D1 /* UIViewControllerExtensions.swift */; };
 		25C0833724458A86001578D1 /* ListsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C0833624458A86001578D1 /* ListsController.xib */; };
 		25C0833924458A9F001578D1 /* ListsNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0833824458A9F001578D1 /* ListsNavigator.swift */; };
 		25C0833B24458AC0001578D1 /* ListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0833A24458AC0001578D1 /* ListsViewModel.swift */; };
-		25C0833F24458C40001578D1 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0833D24458C40001578D1 /* OnboardingController.swift */; };
-		25C0834024458C40001578D1 /* OnboardingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C0833E24458C40001578D1 /* OnboardingController.xib */; };
-		25C0834224458C70001578D1 /* OnboardingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0834124458C70001578D1 /* OnboardingNavigator.swift */; };
-		25C0834424458C7C001578D1 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0834324458C7C001578D1 /* OnboardingViewModel.swift */; };
 		25C0834624458D66001578D1 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0834524458D66001578D1 /* SoundEffects.swift */; };
 		25C0834924458D8B001578D1 /* SplashSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25C0834724458D8A001578D1 /* SplashSound.mp3 */; };
 		25C0834A24458D8B001578D1 /* ErrorSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25C0834824458D8B001578D1 /* ErrorSound.mp3 */; };
@@ -52,6 +47,18 @@
 		25C0834F24458DB8001578D1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25C0834D24458DB8001578D1 /* Montserrat-Regular.ttf */; };
 		25C0835224458E1B001578D1 /* ListHubFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C0835124458E1B001578D1 /* ListHubFont.swift */; };
 		25C08354244590FE001578D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C08353244590FE001578D1 /* Localizable.strings */; };
+		25E0DF6C245783630061C293 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF66245783630061C293 /* OnboardingController.swift */; };
+		25E0DF6D245783630061C293 /* OnboardingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF67245783630061C293 /* OnboardingNavigator.swift */; };
+		25E0DF6E245783630061C293 /* OnboardingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E0DF68245783630061C293 /* OnboardingCell.xib */; };
+		25E0DF6F245783630061C293 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF69245783630061C293 /* OnboardingCell.swift */; };
+		25E0DF70245783630061C293 /* OboardingItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF6A245783630061C293 /* OboardingItemViewModel.swift */; };
+		25E0DF71245783630061C293 /* OnboardingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E0DF6B245783630061C293 /* OnboardingController.xib */; };
+		25E0DF742457D9BD0061C293 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF732457D9BD0061C293 /* UIViewControllerExtensions.swift */; };
+		25E0DF762457DE490061C293 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF752457DE490061C293 /* OnboardingViewModel.swift */; };
+		25E0DF782457DF000061C293 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF772457DF000061C293 /* ViewModelType.swift */; };
+		25E0DF7A2457E0290061C293 /* OnboardingControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF792457E0280061C293 /* OnboardingControllerUI.swift */; };
+		25E0DF7C2457E5610061C293 /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF7B2457E5610061C293 /* ObservableExtensions.swift */; };
+		25E0DF7E2457F0E40061C293 /* ListsControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF7D2457F0E40061C293 /* ListsControllerUI.swift */; };
 		66B4C4C8789D890FC59117EC /* Pods_ListHub_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959B8C57FE35B828C47E0812 /* Pods_ListHub_Domain.framework */; };
 		E062459E99B20C2B4784705D /* Pods_ListHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F667AA7DF51E8F0F6ECCB40 /* Pods_ListHub.framework */; };
 /* End PBXBuildFile section */
@@ -81,7 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		13B6C5F82443B136006BE51D /* List Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "List Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B6C5F82443B136006BE51D /* ListHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B6C5FB2443B136006BE51D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13B6C5FD2443B136006BE51D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		13B6C5FF2443B136006BE51D /* ListsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsController.swift; sourceTree = "<group>"; };
@@ -114,14 +121,9 @@
 		25C0832E244588C3001578D1 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		25C0832F244588C3001578D1 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		25C08330244588C4001578D1 /* SplashNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashNavigator.swift; sourceTree = "<group>"; };
-		25C0833424458A53001578D1 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		25C0833624458A86001578D1 /* ListsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListsController.xib; sourceTree = "<group>"; };
 		25C0833824458A9F001578D1 /* ListsNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsNavigator.swift; sourceTree = "<group>"; };
 		25C0833A24458AC0001578D1 /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
-		25C0833D24458C40001578D1 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
-		25C0833E24458C40001578D1 /* OnboardingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingController.xib; sourceTree = "<group>"; };
-		25C0834124458C70001578D1 /* OnboardingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingNavigator.swift; sourceTree = "<group>"; };
-		25C0834324458C7C001578D1 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		25C0834524458D66001578D1 /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
 		25C0834724458D8A001578D1 /* SplashSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SplashSound.mp3; sourceTree = "<group>"; };
 		25C0834824458D8B001578D1 /* ErrorSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ErrorSound.mp3; sourceTree = "<group>"; };
@@ -129,6 +131,18 @@
 		25C0834D24458DB8001578D1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		25C0835124458E1B001578D1 /* ListHubFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHubFont.swift; sourceTree = "<group>"; };
 		25C08353244590FE001578D1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		25E0DF66245783630061C293 /* OnboardingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		25E0DF67245783630061C293 /* OnboardingNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingNavigator.swift; sourceTree = "<group>"; };
+		25E0DF68245783630061C293 /* OnboardingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OnboardingCell.xib; path = ../OnboardingCell.xib; sourceTree = "<group>"; };
+		25E0DF69245783630061C293 /* OnboardingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingCell.swift; path = ../OnboardingCell.swift; sourceTree = "<group>"; };
+		25E0DF6A245783630061C293 /* OboardingItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OboardingItemViewModel.swift; path = ../OboardingItemViewModel.swift; sourceTree = "<group>"; };
+		25E0DF6B245783630061C293 /* OnboardingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingController.xib; sourceTree = "<group>"; };
+		25E0DF732457D9BD0061C293 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		25E0DF752457DE490061C293 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		25E0DF772457DF000061C293 /* ViewModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		25E0DF792457E0280061C293 /* OnboardingControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingControllerUI.swift; sourceTree = "<group>"; };
+		25E0DF7B2457E5610061C293 /* ObservableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExtensions.swift; sourceTree = "<group>"; };
+		25E0DF7D2457F0E40061C293 /* ListsControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsControllerUI.swift; sourceTree = "<group>"; };
 		4334846171AC3A0B2C40CC77 /* Pods-ListHub-Domain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListHub-Domain.release.xcconfig"; path = "Target Support Files/Pods-ListHub-Domain/Pods-ListHub-Domain.release.xcconfig"; sourceTree = "<group>"; };
 		4A8A6D6290CDBB134C4FB195 /* Pods-ListHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListHub.debug.xcconfig"; path = "Target Support Files/Pods-ListHub/Pods-ListHub.debug.xcconfig"; sourceTree = "<group>"; };
 		959B8C57FE35B828C47E0812 /* Pods_ListHub_Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListHub_Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,7 +187,7 @@
 		13B6C5F92443B136006BE51D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B6C5F82443B136006BE51D /* List Hub.app */,
+				13B6C5F82443B136006BE51D /* ListHub.app */,
 				25C082ED24457F67001578D1 /* Domain.framework */,
 			);
 			name = Products;
@@ -228,6 +242,7 @@
 		25C082FD24458007001578D1 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				25E0DF772457DF000061C293 /* ViewModelType.swift */,
 				25C082FA24457FCE001578D1 /* DataBaseProtocol.swift */,
 			);
 			path = Protocols;
@@ -279,6 +294,7 @@
 				25C0833624458A86001578D1 /* ListsController.xib */,
 				25C0833824458A9F001578D1 /* ListsNavigator.swift */,
 				25C0833A24458AC0001578D1 /* ListsViewModel.swift */,
+				25E0DF7D2457F0E40061C293 /* ListsControllerUI.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -308,7 +324,8 @@
 			isa = PBXGroup;
 			children = (
 				25C0830E24458242001578D1 /* UIColorExtensions.swift */,
-				25C0833424458A53001578D1 /* UIViewControllerExtensions.swift */,
+				25E0DF732457D9BD0061C293 /* UIViewControllerExtensions.swift */,
+				25E0DF7B2457E5610061C293 /* ObservableExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -359,10 +376,12 @@
 		25C0833C24458C26001578D1 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				25C0833D24458C40001578D1 /* OnboardingController.swift */,
-				25C0833E24458C40001578D1 /* OnboardingController.xib */,
-				25C0834124458C70001578D1 /* OnboardingNavigator.swift */,
-				25C0834324458C7C001578D1 /* OnboardingViewModel.swift */,
+				25E0DF722457846F0061C293 /* Cell */,
+				25E0DF66245783630061C293 /* OnboardingController.swift */,
+				25E0DF6B245783630061C293 /* OnboardingController.xib */,
+				25E0DF67245783630061C293 /* OnboardingNavigator.swift */,
+				25E0DF752457DE490061C293 /* OnboardingViewModel.swift */,
+				25E0DF792457E0280061C293 /* OnboardingControllerUI.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -383,6 +402,16 @@
 				25C0834C24458DB8001578D1 /* Montserrat-Bold.ttf */,
 			);
 			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		25E0DF722457846F0061C293 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				25E0DF6A245783630061C293 /* OboardingItemViewModel.swift */,
+				25E0DF69245783630061C293 /* OnboardingCell.swift */,
+				25E0DF68245783630061C293 /* OnboardingCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		3E53B766BD4362E17C7DB356 /* Pods */ = {
@@ -428,7 +457,7 @@
 			);
 			name = ListHub;
 			productName = ListHub;
-			productReference = 13B6C5F82443B136006BE51D /* List Hub.app */;
+			productReference = 13B6C5F82443B136006BE51D /* ListHub.app */;
 			productType = "com.apple.product-type.application";
 		};
 		25C082EC24457F67001578D1 /* Domain */ = {
@@ -494,7 +523,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				25C0834F24458DB8001578D1 /* Montserrat-Regular.ttf in Resources */,
-				25C0834024458C40001578D1 /* OnboardingController.xib in Resources */,
 				13B6C60B2443B14E006BE51D /* LaunchScreen.storyboard in Resources */,
 				25C08332244588C4001578D1 /* SplashViewController.xib in Resources */,
 				13B6C6082443B14E006BE51D /* Assets.xcassets in Resources */,
@@ -502,6 +530,8 @@
 				25C0834E24458DB8001578D1 /* Montserrat-Bold.ttf in Resources */,
 				25C0833724458A86001578D1 /* ListsController.xib in Resources */,
 				25C0834924458D8B001578D1 /* SplashSound.mp3 in Resources */,
+				25E0DF6E245783630061C293 /* OnboardingCell.xib in Resources */,
+				25E0DF71245783630061C293 /* OnboardingController.xib in Resources */,
 				25C0834A24458D8B001578D1 /* ErrorSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,30 +614,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E0DF7A2457E0290061C293 /* OnboardingControllerUI.swift in Sources */,
 				25C0835224458E1B001578D1 /* ListHubFont.swift in Sources */,
-				25C0834424458C7C001578D1 /* OnboardingViewModel.swift in Sources */,
 				25C0832724458804001578D1 /* MainNavigationController.swift in Sources */,
+				25E0DF7E2457F0E40061C293 /* ListsControllerUI.swift in Sources */,
 				25C0831324458394001578D1 /* Utility.swift in Sources */,
-				25C0834224458C70001578D1 /* OnboardingNavigator.swift in Sources */,
 				25C08322244585AA001578D1 /* LanguageManager.swift in Sources */,
 				25C08331244588C4001578D1 /* SplashViewController.swift in Sources */,
 				25C0831C244583E3001578D1 /* StaticConstants.swift in Sources */,
 				13B6C6002443B136006BE51D /* ListsController.swift in Sources */,
 				25C0832A24458854001578D1 /* Navigator.swift in Sources */,
+				25E0DF6C245783630061C293 /* OnboardingController.swift in Sources */,
 				25C0833924458A9F001578D1 /* ListsNavigator.swift in Sources */,
 				25C0834624458D66001578D1 /* SoundEffects.swift in Sources */,
 				25C0831E24458496001578D1 /* UserDefaults.swift in Sources */,
+				25E0DF6D245783630061C293 /* OnboardingNavigator.swift in Sources */,
 				25C08315244583B8001578D1 /* Vibrator.swift in Sources */,
 				13B6C5FC2443B136006BE51D /* AppDelegate.swift in Sources */,
+				25E0DF7C2457E5610061C293 /* ObservableExtensions.swift in Sources */,
 				25C0830C2445817B001578D1 /* ListHubColor.swift in Sources */,
+				25E0DF762457DE490061C293 /* OnboardingViewModel.swift in Sources */,
 				25C0833B24458AC0001578D1 /* ListsViewModel.swift in Sources */,
 				25C08333244588C4001578D1 /* SplashNavigator.swift in Sources */,
-				25C0833524458A53001578D1 /* UIViewControllerExtensions.swift in Sources */,
+				25E0DF70245783630061C293 /* OboardingItemViewModel.swift in Sources */,
 				25C08324244585D8001578D1 /* Application.swift in Sources */,
+				25E0DF742457D9BD0061C293 /* UIViewControllerExtensions.swift in Sources */,
 				25C0832D244588B9001578D1 /* SplashViewModel.swift in Sources */,
 				25C0830F24458242001578D1 /* UIColorExtensions.swift in Sources */,
 				13B6C5FE2443B136006BE51D /* SceneDelegate.swift in Sources */,
-				25C0833F24458C40001578D1 /* OnboardingController.swift in Sources */,
+				25E0DF6F245783630061C293 /* OnboardingCell.swift in Sources */,
 				25C08320244584B8001578D1 /* Defaults.swift in Sources */,
 				13B6C6062443B136006BE51D /* ListHub.xcdatamodeld in Sources */,
 				25C0831A244583E3001578D1 /* Constants.swift in Sources */,
@@ -621,6 +656,7 @@
 				25C0830324458071001578D1 /* EntityModel.swift in Sources */,
 				25C082FB24457FCF001578D1 /* DataBaseProtocol.swift in Sources */,
 				25C0830024458031001578D1 /* DataBaseError.swift in Sources */,
+				25E0DF782457DF000061C293 /* ViewModelType.swift in Sources */,
 				25C0830524458091001578D1 /* ComponentType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -779,7 +815,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beksas.listhub;
-				PRODUCT_NAME = "List Hub";
+				PRODUCT_NAME = ListHub;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -801,7 +837,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beksas.listhub;
-				PRODUCT_NAME = "List Hub";
+				PRODUCT_NAME = ListHub;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

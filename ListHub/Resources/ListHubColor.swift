@@ -13,8 +13,8 @@ enum ListHubColor {
   case background
   case text
   
-  case custom(hexString: String, alpha: Double)
-  case customWithDarkModeString(hexStringForDarkMode: String, hexStringForLightMode: String, alpha: Double)
+  case custom(hex: Int, alpha: Double)
+  case customWithDarkModeString(hexForDarkMode: Int, hexForLightMode: Int, alpha: Double)
   case customWithDarkModeColor(colorForDarkMode: UIColor, colorForLightMode: UIColor, alpha: Double)
   
   func withAlpha(_ alpha: Double) -> UIColor {
@@ -31,14 +31,12 @@ extension ListHubColor {
     case .background:
       instanceColor = UIColor.UITraitCollectionColor(darkModeColor: UIColor.black, lightModeColor: UIColor.white)
     case .text:
-      instanceColor = UIColor.UITraitCollectionColor(darkModeColor: UIColor(hexString: "#ececec"), lightModeColor: UIColor(hexString: "#9B9B9B"))
-      
-      
+      instanceColor = UIColor.UITraitCollectionColor(darkModeColor: UIColor(hex: 0xececec), lightModeColor: UIColor(hex: 0x9B9B9B))
       
     case .custom(let hexString, let opacity):
-      instanceColor = UIColor(hexString: hexString).withAlphaComponent(CGFloat(opacity))
+      instanceColor = UIColor(hex: hexString).withAlphaComponent(CGFloat(opacity))
     case .customWithDarkModeString(let hexStringForDarkMode, let hexStringForLightMode, let opacity):
-      instanceColor = UIColor.UITraitCollectionColor(darkModeHexString: hexStringForDarkMode, lightModeHexString: hexStringForLightMode).withAlphaComponent(CGFloat(opacity))
+      instanceColor = UIColor.UITraitCollectionColor(darkModeHex: hexStringForDarkMode, lightModeHex: hexStringForLightMode).withAlphaComponent(CGFloat(opacity))
     case .customWithDarkModeColor(let colorForDarkMode, let colorForLightMode, let opacity):
       UIColor.UITraitCollectionColor(darkModeColor: colorForDarkMode, lightModeColor: colorForLightMode).withAlphaComponent(CGFloat(opacity))
     }

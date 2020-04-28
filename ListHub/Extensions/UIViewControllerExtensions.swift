@@ -2,7 +2,7 @@
 //  UIViewControllerExtensions.swift
 //  ListHub
 //
-//  Created by Salar Soleimani on 2020-04-14.
+//  Created by Salar Soleimani on 2020-04-27.
 //  Copyright © 2020 BEKSAS. All rights reserved.
 //
 
@@ -16,3 +16,4 @@ extension UIViewController {
     return instanceFromNib()
   }
 }
+
