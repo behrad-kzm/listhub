@@ -14,7 +14,6 @@ extension OnboardingController {
     navigationController?.isNavigationBarHidden = true
     
     setupCollectionView()
-    
     view.backgroundColor = ListHubColor.background.value
   }
   private func setupCollectionView() {

@@ -59,6 +59,11 @@
 		25E0DF7A2457E0290061C293 /* OnboardingControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF792457E0280061C293 /* OnboardingControllerUI.swift */; };
 		25E0DF7C2457E5610061C293 /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF7B2457E5610061C293 /* ObservableExtensions.swift */; };
 		25E0DF7E2457F0E40061C293 /* ListsControllerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF7D2457F0E40061C293 /* ListsControllerUI.swift */; };
+		25E0DF812457F6C70061C293 /* SettingNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF802457F6C70061C293 /* SettingNavigator.swift */; };
+		25E0DF832457F6D20061C293 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF822457F6D20061C293 /* SettingViewModel.swift */; };
+		25E0DF862457F6E50061C293 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF842457F6E50061C293 /* SettingController.swift */; };
+		25E0DF872457F6E50061C293 /* SettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E0DF852457F6E50061C293 /* SettingController.xib */; };
+		25E0DF892457F7150061C293 /* SettingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E0DF882457F7150061C293 /* SettingUI.swift */; };
 		66B4C4C8789D890FC59117EC /* Pods_ListHub_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959B8C57FE35B828C47E0812 /* Pods_ListHub_Domain.framework */; };
 		E062459E99B20C2B4784705D /* Pods_ListHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F667AA7DF51E8F0F6ECCB40 /* Pods_ListHub.framework */; };
 /* End PBXBuildFile section */
@@ -143,6 +148,11 @@
 		25E0DF792457E0280061C293 /* OnboardingControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingControllerUI.swift; sourceTree = "<group>"; };
 		25E0DF7B2457E5610061C293 /* ObservableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableExtensions.swift; sourceTree = "<group>"; };
 		25E0DF7D2457F0E40061C293 /* ListsControllerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsControllerUI.swift; sourceTree = "<group>"; };
+		25E0DF802457F6C70061C293 /* SettingNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingNavigator.swift; sourceTree = "<group>"; };
+		25E0DF822457F6D20061C293 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		25E0DF842457F6E50061C293 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		25E0DF852457F6E50061C293 /* SettingController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingController.xib; sourceTree = "<group>"; };
+		25E0DF882457F7150061C293 /* SettingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUI.swift; sourceTree = "<group>"; };
 		4334846171AC3A0B2C40CC77 /* Pods-ListHub-Domain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListHub-Domain.release.xcconfig"; path = "Target Support Files/Pods-ListHub-Domain/Pods-ListHub-Domain.release.xcconfig"; sourceTree = "<group>"; };
 		4A8A6D6290CDBB134C4FB195 /* Pods-ListHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ListHub.debug.xcconfig"; path = "Target Support Files/Pods-ListHub/Pods-ListHub.debug.xcconfig"; sourceTree = "<group>"; };
 		959B8C57FE35B828C47E0812 /* Pods_ListHub_Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ListHub_Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,10 +289,11 @@
 		25C083072445812F001578D1 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				25C08325244587EC001578D1 /* Main */,
-				25C0832B244588AC001578D1 /* Splash */,
-				25C0833C24458C26001578D1 /* Onboarding */,
+				25E0DF7F2457F6BB0061C293 /* Setting */,
 				25C0830824458137001578D1 /* Lists */,
+				25C0833C24458C26001578D1 /* Onboarding */,
+				25C0832B244588AC001578D1 /* Splash */,
+				25C08325244587EC001578D1 /* Main */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -414,6 +425,18 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		25E0DF7F2457F6BB0061C293 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				25E0DF802457F6C70061C293 /* SettingNavigator.swift */,
+				25E0DF822457F6D20061C293 /* SettingViewModel.swift */,
+				25E0DF842457F6E50061C293 /* SettingController.swift */,
+				25E0DF852457F6E50061C293 /* SettingController.xib */,
+				25E0DF882457F7150061C293 /* SettingUI.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		3E53B766BD4362E17C7DB356 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -526,6 +549,7 @@
 				13B6C60B2443B14E006BE51D /* LaunchScreen.storyboard in Resources */,
 				25C08332244588C4001578D1 /* SplashViewController.xib in Resources */,
 				13B6C6082443B14E006BE51D /* Assets.xcassets in Resources */,
+				25E0DF872457F6E50061C293 /* SettingController.xib in Resources */,
 				25C08354244590FE001578D1 /* Localizable.strings in Resources */,
 				25C0834E24458DB8001578D1 /* Montserrat-Bold.ttf in Resources */,
 				25C0833724458A86001578D1 /* ListsController.xib in Resources */,
@@ -619,6 +643,7 @@
 				25C0832724458804001578D1 /* MainNavigationController.swift in Sources */,
 				25E0DF7E2457F0E40061C293 /* ListsControllerUI.swift in Sources */,
 				25C0831324458394001578D1 /* Utility.swift in Sources */,
+				25E0DF812457F6C70061C293 /* SettingNavigator.swift in Sources */,
 				25C08322244585AA001578D1 /* LanguageManager.swift in Sources */,
 				25C08331244588C4001578D1 /* SplashViewController.swift in Sources */,
 				25C0831C244583E3001578D1 /* StaticConstants.swift in Sources */,
@@ -633,14 +658,17 @@
 				13B6C5FC2443B136006BE51D /* AppDelegate.swift in Sources */,
 				25E0DF7C2457E5610061C293 /* ObservableExtensions.swift in Sources */,
 				25C0830C2445817B001578D1 /* ListHubColor.swift in Sources */,
+				25E0DF862457F6E50061C293 /* SettingController.swift in Sources */,
 				25E0DF762457DE490061C293 /* OnboardingViewModel.swift in Sources */,
 				25C0833B24458AC0001578D1 /* ListsViewModel.swift in Sources */,
 				25C08333244588C4001578D1 /* SplashNavigator.swift in Sources */,
+				25E0DF832457F6D20061C293 /* SettingViewModel.swift in Sources */,
 				25E0DF70245783630061C293 /* OboardingItemViewModel.swift in Sources */,
 				25C08324244585D8001578D1 /* Application.swift in Sources */,
 				25E0DF742457D9BD0061C293 /* UIViewControllerExtensions.swift in Sources */,
 				25C0832D244588B9001578D1 /* SplashViewModel.swift in Sources */,
 				25C0830F24458242001578D1 /* UIColorExtensions.swift in Sources */,
+				25E0DF892457F7150061C293 /* SettingUI.swift in Sources */,
 				13B6C5FE2443B136006BE51D /* SceneDelegate.swift in Sources */,
 				25E0DF6F245783630061C293 /* OnboardingCell.swift in Sources */,
 				25C08320244584B8001578D1 /* Defaults.swift in Sources */,

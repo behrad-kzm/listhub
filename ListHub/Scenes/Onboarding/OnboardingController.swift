@@ -36,7 +36,7 @@ final class OnboardingController: UIViewController {
     outputs.items.forEach { (item) in
       onboardingCollectionView.push(cell: BEKGenericCell.Collection<OnboardingCell>(viewModel: item))
     }
-    outputs.pageControllIndex.drive(onboardingPageControll.rx.currentPage).disposed(by: DisposeBag())
+    outputs.pageControllIndex.drive(onboardingPageControll.rx.currentPage).disposed(by: disposeBag)
     outputs.isLastPage.drive(letsGoButton.rx.isHidden).disposed(by: disposeBag)
     outputs.letsGoTrigger.drive().disposed(by: disposeBag)
   }

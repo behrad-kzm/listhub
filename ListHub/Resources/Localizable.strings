@@ -6,6 +6,9 @@
   Copyright © 2020 BEKSAS. All rights reserved.
 */
 
+// SHARED
+
+
 /// Rate
 
 "Rate_alertCancelTitle" = "Not now, thanks";
@@ -26,4 +29,8 @@
 "onboarding_description3" = "You are a collectioner! forget what did you borrow your friend?\nSimply add a description element to your collection list and write who did you borrow to.";
 "onboarding_description4" = "Start creating a list by + button.";
 
+// LISTS
+"lists_navigation_title" = "My Lists";
 
+// SETTING
+"setting_navigation_title" = "Setting";

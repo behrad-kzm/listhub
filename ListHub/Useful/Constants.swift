@@ -35,4 +35,7 @@ enum Constants {
     case mail = "coronacareapp@gmail.com"
     case mailSubject = "About virus care application"
   }
+  enum HeroIds: String {
+    case toSetting = "Hero.ToSetting"
+  }
 }

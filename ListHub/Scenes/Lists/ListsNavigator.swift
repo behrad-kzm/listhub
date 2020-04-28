@@ -15,4 +15,13 @@ final class ListsNavigator: Navigator {
     navigationController.setViewControllers([vc], animated: true)
     //AnalyticLogProvider.logNavigator(name: NSStringFromClass(type(of: self)), functionName: "setup")
   }
+  func toAddList() {
+    
+  }
+  func toList() {
+    
+  }
+  func toSetting() {
+    SettingNavigator(navigationController: navigationController).setup()
+  }
 }

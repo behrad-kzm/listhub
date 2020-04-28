@@ -7,9 +7,26 @@
 //
 
 import UIKit
+import Hero
 
 extension ListsController {
   func setupUI() {
+    setupHero()
+    setupNavigationUI()
+      
+    view.backgroundColor = ListHubColor.background.value
+  }
+  private func setupNavigationUI() {
     navigationController?.setNavigationBarHidden(false, animated: false)
+    navigationItem.title = "lists_navigation_title".localize()
+    navigationItem.rightBarButtonItem = addListBarButton
+    navigationItem.leftBarButtonItem = settingBarButton
+  }
+  private func setupHero() {
+    isHeroEnabled = true
+    hero.isEnabled = true
+    //view.heroID = Constants.HeroIds.toSetting.rawValue
+    heroModalAnimationType = .pageIn(direction: .right)
+
   }
 }

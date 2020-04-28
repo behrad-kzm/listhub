@@ -24,9 +24,10 @@ final class OnboardingViewModel: ViewModelType {
     let index = input.indexPath.map { [makeOnboardingData] (_, indexPath) -> Int in
       isLastPage.accept((makeOnboardingData().count != indexPath.row + 1))
       return indexPath.row
-    }.startWith(1).skip(1)
+    }
     
     let letsGoTrigger = input.letsGoTrigger.do(onNext: { [navigator] _ in
+      Defaults.isOnboardingWatched = true
       navigator.toLists()
     }).skip(1)
     
